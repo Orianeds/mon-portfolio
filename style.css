@@ -57,6 +57,11 @@ a {
     cursor: pointer;
 }
 
+.top-nav-bar ul li:hover{
+    color: #9D6C78;
+    background-color: white;
+}
+
 .top-nav-bar .menu-hamburger{
     display: none;
     position: absolute;
@@ -135,6 +140,11 @@ a {
     width: 200px;
 }
 
+.about .about-left a:hover{
+    color: #9D6C78;
+    background-color: white;
+}
+
 .about .about-left{
     display: flex;
     flex-direction: column;
@@ -190,13 +200,15 @@ a {
 
 .about .about-right p {
    background-color: #9D6C78;
+   max-height: 40rem;
    color: white;
    line-height: 30px;
    text-align: justify;
    border-radius: 20px;
-   margin : 20px 100px;
+   margin : 20px 80px;
    padding: 20px;
    letter-spacing: 1px;
+   overflow-y: auto;
 }
 
 .about .about-right .about-right-logo {
@@ -713,6 +725,21 @@ a {
 
 .projects .projects-preview .preview img{
     width: 30px;
+    margin: 10px;
+}
+
+figure {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+figcaption{
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #9D6C78;
 }
 
 /* FORMULAIRE DE CONTACT */
